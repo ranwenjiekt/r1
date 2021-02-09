@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: r6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\学长\AppData\Local\Temp\RSP5CB9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/r6.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\r1\r6\r6.cpp"
+]
+Creating command line "cl.exe @"C:\Users\学长\AppData\Local\Temp\RSP5CB9.tmp"" 
+Creating temporary file "C:\Users\学长\AppData\Local\Temp\RSP5CBA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/r6.pdb" /debug /machine:I386 /out:"Debug/r6.exe" /pdbtype:sept 
+.\Debug\r6.obj
+]
+Creating command line "link.exe @"C:\Users\学长\AppData\Local\Temp\RSP5CBA.tmp""
+<h3>Output Window</h3>
+Compiling...
+r6.cpp
+D:\r1\r6\r6.cpp(1) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(1) : error C2018: unknown character '0xa8'
+D:\r1\r6\r6.cpp(1) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(1) : error C2018: unknown character '0xa9'
+D:\r1\r6\r6.cpp(2) : error C2182: 'main' : illegal use of type 'void'
+D:\r1\r6\r6.cpp(2) : error C2239: unexpected token '{' following declaration of 'main'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xac'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xac'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(4) : error C2018: unknown character '0xbb'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa8'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa1'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xb0'
+D:\r1\r6\r6.cpp(8) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(8) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(8) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa1'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xb1'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa9'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(8) : error C2018: unknown character '0xbb'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa8'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa1'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xb0'
+D:\r1\r6\r6.cpp(9) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(9) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(9) : error C2017: illegal escape sequence
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa1'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xb1'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa9'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xa3'
+D:\r1\r6\r6.cpp(9) : error C2018: unknown character '0xbb'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+r6.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
